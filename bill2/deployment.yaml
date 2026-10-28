@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bill-calculator
-          image: YOUR_DOCKERHUB_USERNAME/shopping-bill-app:PASTE_PUSH_1_COMMIT_SHA
+          image:  mmokshitha/shopping-bill-app:dckr_pat_eOc4kPfmK_M9RS7ewutMlU-0lWE
           ports:
             - containerPort: 5000
           readinessProbe:
